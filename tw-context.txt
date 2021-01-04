@@ -1,2 +1,3 @@
 %%!TEX encoding = UTF-8 Unicode
 start:=\starttext#RET##RET##INS##RET##RET#\stoptext
+setuppapersize:=\setuppapersize[•]
