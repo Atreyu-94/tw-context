@@ -1,3 +1,12 @@
 %%!TEX encoding = UTF-8 Unicode
 start:=\starttext#RET##RET##INS##RET##RET#\stoptext
 setuppapersize:=\setuppapersize[•]
+
+%%Natural Tables
+setuptable:=\setupTABLE[•][•][•]
+table:=\bTABLE#RET##RET##INS##RET##RET#\eTABLE
+tableoption:=\bTABLE[•]#RET##RET##INS##RET##RET#\eTABLE
+TR:=\bTR#INS#\eTR
+TRoption:=\bTR[•]#INS#\eTR
+TD:=\bTD#INS#\eTD
+TDoption:=\bTD[•]#INS#\eTD
